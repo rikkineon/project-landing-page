@@ -1,11 +1,14 @@
 * {
     box-sizing: border-box;
+
 } 
 
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', 'Times New Roman', Arial, sans-serif;
+    font-size: 16px;
 }
 
 ul {
@@ -19,15 +22,22 @@ h1 {
     font-weight: 900;
 }
 
-.more {
-    width: 95px;
+button {
+    background-color: #2883f6;
+    padding: 10px 20px;
+    width: 150px;
+    color: #E5E7EB;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: paleturquoise;
+    background-color: #1F2937;
     padding: 25px 200px;
 }
 
@@ -47,7 +57,7 @@ h1 {
 }
 
 .link {
-    color: #fff;
+    color: #E5E7EB; 
     font-size: 24px;
 }
 
@@ -56,6 +66,7 @@ h1 {
     justify-content: center;
     gap: 50px;
     margin-bottom: 75px;
+    color: #E5E7EB;
 }
 
 .hero-text {
@@ -63,6 +74,7 @@ h1 {
     flex-direction: column;
     width: 600px;
     flex-basis: auto;
+    color: #F9FAF8;
 }
 
 .placeholder {
@@ -118,7 +130,7 @@ h1 {
 .quote {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     color: #1F2937;
     font-weight: 300;
@@ -138,12 +150,15 @@ h1 {
     display: flex;
     width: 1000px;
     flex-basis: auto;
-    background-color: deeppink;
+    background-color: #3882F6;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
     padding: 30px;
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 .cta {
@@ -151,21 +166,33 @@ h1 {
     width: 600px;
     justify-content: space-between;
     align-items: center;
-    border-width: 4px;
-    border-style: solid;
-    border-color: cyan;
+}
+
+.cta-main {
+    font-weight: 900;
+    font-size: 22px;
+    padding: 0;
 }
 
 .cta-stack {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 0;
+    padding: 0;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: #1F2937;
     padding: 35px;
+    color: #E5E7EB;
+}
+
+.signup {
+    border-width: 2px;
+    border-color: #E5E7EB;
+    border-style: solid;
 }
