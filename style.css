@@ -55,3 +55,34 @@ ul {
     align-items: center;
     background-color: cornflowerblue;
 }
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.icons-captions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.stack {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color:blue;
+    border-width: 4px;
+    border-radius: 30%;
+}
